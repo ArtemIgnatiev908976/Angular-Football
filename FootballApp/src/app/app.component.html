@@ -4,9 +4,9 @@
   <meta charset=utf-8>
   <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name=description
-        content="Quick Website UI Kit is an innovative HTML template solution which combines beautiful design and flawless functionality.">
-  <meta name=author content=Webpixels>
-  <title>Uefa</title>
+        content="">
+
+  <title>{{title}}</title>
   <style>@keyframes hidePreloader {
            0% {
              width: 100%;
@@ -50,76 +50,10 @@
 
 
 
-<!--Header-->
-<header class=header-transparent id=header-main>
-  <nav class="navbar navbar-main navbar-expand-lg navbar-dark" id=navbar-main>
-    <div class=container><a class=navbar-brand href=index.html>
+<app-header></app-header>
 
 
-      <img alt="Image placeholder"
-           src="assets/img/brand/uefa-logo-white.svg"
-           id="navbar-logo"> </a>
-
-
-      <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar-main-collapse
-              aria-controls=navbar-main-collapse aria-expanded=false aria-label="Toggle navigation"><span
-        class=navbar-toggler-icon></span></button>
-      <div class="collapse navbar-collapse navbar-collapse-overlay" id=navbar-main-collapse>
-        <div class=position-relative>
-          <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar-main-collapse
-                  aria-controls=navbar-main-collapse aria-expanded=false aria-label="Toggle navigation"><i
-            data-feather=x></i></button>
-        </div>
-        <ul class="navbar-nav ml-lg-auto">
-          <li class="nav-item nav-item-spaced d-none d-lg-block"><a class="nav-link"
-                                                                    href="overview.html">Лига чемпионов УЕФА</a>
-          </li>
-          <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle=hover><a class="nav-link"
-                                                                                              data-toggle=dropdown
-                                                                                              href=#
-                                                                                              aria-haspopup=true
-                                                                                              aria-expanded=false>Лига
-            Европы УЕФА</a>
-
-          </li>
-          <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle=hover><a class="nav-link"
-                                                                                              href=#
-                                                                                              role=button
-                                                                                              data-toggle=dropdown
-                                                                                              aria-haspopup=true
-                                                                                              aria-expanded=false>Лига
-            конференций УЕФА</a>
-
-          </li>
-
-
-        </ul>
-
-
-      </div>
-    </div>
-  </nav>
-</header>
-
-<!--Header-->
-
-
-<!--<Баннер>-->
-<section class="slice slice-lg py-7 bg-cover bg-size--cover"
-         style="background-image:url(assets/img/backgrounds/br-football.jpg)"><span
-  class="mask bg-dark opacity-7"></span>
-  <div class="container d-flex align-items-center" data-offset-top="#navbar-main">
-    <div class="col py-5">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-md-7 col-lg-12 text-center"><h1 class="display-4 text-white mb-2"><strong>Европейские
-          чемпионаты и кубки</strong>
-        </h1><span class="text-white text-sm">Мы заботимся о футболе</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--<Баннер>-->
+<app-banner></app-banner>
 
 
 <!--Таблица-->
@@ -128,22 +62,6 @@
   <div class=container>
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center"><h2 class=mb-3>Европейские чемпионаты</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="form-group"><label class="form-control-label">Выберите страну</label> <select
           class="form-control select2-hidden-accessible" data-toggle="select" title="Выберите страну"
           data-live-search="true" data-live-search-placeholder="Country" data-select2-id="1" tabindex="-1"
