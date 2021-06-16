@@ -1,0 +1,251 @@
+
+
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name=description
+        content="Quick Website UI Kit is an innovative HTML template solution which combines beautiful design and flawless functionality.">
+  <meta name=author content=Webpixels>
+  <title>Uefa</title>
+  <style>@keyframes hidePreloader {
+           0% {
+             width: 100%;
+             height: 100%
+           }
+           100% {
+             width: 0;
+             height: 0
+           }
+         }
+
+  body > div.preloader {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 1071;
+    opacity: 0;
+    transition: opacity .5s ease;
+    overflow: hidden;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  body:not(.loaded) > div.preloader {
+    opacity: 1
+  }
+
+  body:not(.loaded) {
+    overflow: hidden
+  }
+
+  body.loaded > div.preloader {
+    animation: hidePreloader .5s linear .5s forwards
+  }</style>
+
+
+</head>
+
+
+
+<!--Header-->
+<header class=header-transparent id=header-main>
+  <nav class="navbar navbar-main navbar-expand-lg navbar-dark" id=navbar-main>
+    <div class=container><a class=navbar-brand href=index.html>
+
+
+      <img alt="Image placeholder"
+           src="assets/img/brand/uefa-logo-white.svg"
+           id="navbar-logo"> </a>
+
+
+      <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar-main-collapse
+              aria-controls=navbar-main-collapse aria-expanded=false aria-label="Toggle navigation"><span
+        class=navbar-toggler-icon></span></button>
+      <div class="collapse navbar-collapse navbar-collapse-overlay" id=navbar-main-collapse>
+        <div class=position-relative>
+          <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbar-main-collapse
+                  aria-controls=navbar-main-collapse aria-expanded=false aria-label="Toggle navigation"><i
+            data-feather=x></i></button>
+        </div>
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item nav-item-spaced d-none d-lg-block"><a class="nav-link"
+                                                                    href="overview.html">Лига чемпионов УЕФА</a>
+          </li>
+          <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle=hover><a class="nav-link"
+                                                                                              data-toggle=dropdown
+                                                                                              href=#
+                                                                                              aria-haspopup=true
+                                                                                              aria-expanded=false>Лига
+            Европы УЕФА</a>
+
+          </li>
+          <li class="nav-item nav-item-spaced dropdown dropdown-animate" data-toggle=hover><a class="nav-link"
+                                                                                              href=#
+                                                                                              role=button
+                                                                                              data-toggle=dropdown
+                                                                                              aria-haspopup=true
+                                                                                              aria-expanded=false>Лига
+            конференций УЕФА</a>
+
+          </li>
+
+
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!--Header-->
+
+
+<!--<Баннер>-->
+<section class="slice slice-lg py-7 bg-cover bg-size--cover"
+         style="background-image:url(assets/img/backgrounds/br-football.jpg)"><span
+  class="mask bg-dark opacity-7"></span>
+  <div class="container d-flex align-items-center" data-offset-top="#navbar-main">
+    <div class="col py-5">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-7 col-lg-12 text-center"><h1 class="display-4 text-white mb-2"><strong>Европейские
+          чемпионаты и кубки</strong>
+        </h1><span class="text-white text-sm">Мы заботимся о футболе</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--<Баннер>-->
+
+
+<!--Таблица-->
+
+<section class="slice py-5 py-md-6 bg-section-secondary">
+  <div class=container>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center"><h2 class=mb-3>Европейские чемпионаты</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="form-group"><label class="form-control-label">Выберите страну</label> <select
+          class="form-control select2-hidden-accessible" data-toggle="select" title="Выберите страну"
+          data-live-search="true" data-live-search-placeholder="Country" data-select2-id="1" tabindex="-1"
+          aria-hidden="true">
+
+          <option data-select2-id="3">Все лиги</option>
+          <option data-select2-id="14"> Англия</option>
+          <option data-select2-id="15">Испания</option>
+          <option data-select2-id="16">Италия</option>
+          <option data-select2-id="17">Германия</option>
+          <option data-select2-id="18">Франция</option>
+          <option data-select2-id="18">Португалия</option>
+          <option data-select2-id="18">Россия</option>
+          <option data-select2-id="18">Нидерланды</option>
+          <option data-select2-id="18">Бельгия</option>
+          <option data-select2-id="18">Австрия</option>
+          <option data-select2-id="18">Украина</option>
+          <option data-select2-id="18">Шотландия</option>
+        </select>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid ">
+    <div class="row mt-6 mb-n10 position-relative zindex-100">
+      <div class="col-lg-4 col-sm-6 mt-5">
+        <p><a href="#"><img alt="Image placeholder"
+                            src="assets/img/icons/flags/gb-eng.svg"
+                            style="width:40px; margin-right: 20px">Английская премьер-лига</a></p>
+        <table class="table">
+
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Клуб</th>
+            <th scope="col">И</th>
+            <th scope="col">В</th>
+            <th scope="col">Н</th>
+            <th scope="col">П</th>
+            <th scope="col">О</th>
+          </tr>
+          </thead>
+
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><img alt="Image placeholder"
+                     src="assets/img/icons/club/mc.png"
+                     style="width:20px; margin-right: 10px; margin-bottom: 5px"> Манчестер сити
+            </td>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td><img alt="Image placeholder"
+                     src="assets/img/icons/club/ce.png"
+                     style="width:20px; margin-right: 10px; margin-bottom: 5px"> Челси
+            </td>
+            <td>1</td>
+            <td>2</td>
+            <td>5</td>
+            <td>2</td>
+            <td>4</td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><img alt="Image placeholder"
+                     src="assets/img/icons/club/liver.png"
+                     style="width:20px; margin-right: 10px; margin-bottom: 5px"> Ливерпуль
+            </td>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+            <td>5</td>
+            <td>1</td>
+
+          </tr>
+          </tbody>
+        </table>
+        <button type="button" class="btn btn-outline-primary btn-sm rounded-0">
+          Подробнее
+        </button>
+        <button type="button" class="btn btn-outline-primary btn-sm rounded-0">
+          Матчи
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+</section>
+
+
+<!--Таблица-->
