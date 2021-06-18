@@ -1,9 +1,9 @@
 <div class="container-fluid ">
   <div class="row mt-6 mb-n10 position-relative zindex-100">
     <div class="col-lg-4 col-sm-6 mt-5" *ngFor="let league of leagues ">
-      <p><a routerLink="/oneTeam"><img alt="Image placeholder"
-                          src="assets/img/icons/flags/gb-eng.svg"
-                          style="width:40px; margin-right: 20px">Английская премьер-лига</a></p>
+      <p><a routerLink="/oneTeam"><img src="{{league.icon}}"    alt="Image placeholder"
+
+                          style="width:40px; margin-right: 20px">{{league.title}}</a></p>
 
 
       <table  class="table">
