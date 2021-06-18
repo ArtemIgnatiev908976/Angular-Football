@@ -1,10 +1,12 @@
 <div class="container-fluid ">
   <div class="row mt-6 mb-n10 position-relative zindex-100">
-    <div class="col-lg-4 col-sm-6 mt-5">
-      <p><a href="#"><img alt="Image placeholder"
+    <div class="col-lg-4 col-sm-6 mt-5" *ngFor="let league of leagues ">
+      <p><a routerLink="/oneTeam"><img alt="Image placeholder"
                           src="assets/img/icons/flags/gb-eng.svg"
                           style="width:40px; margin-right: 20px">Английская премьер-лига</a></p>
-      <table class="table">
+
+
+      <table  class="table">
 
         <thead>
         <tr>
@@ -17,48 +19,27 @@
           <th scope="col">О</th>
         </tr>
         </thead>
-
         <tbody>
-        <tr>
+        <tr  >
           <th scope="row">1</th>
           <td><img alt="Image placeholder"
                    src="assets/img/icons/club/mc.png"
                    style="width:20px; margin-right: 10px; margin-bottom: 5px"> Манчестер сити
           </td>
-          <td>1</td>
+          <td >5</td>
           <td>2</td>
           <td>2</td>
           <td>2</td>
           <td>2</td>
         </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td><img alt="Image placeholder"
-                   src="assets/img/icons/club/ce.png"
-                   style="width:20px; margin-right: 10px; margin-bottom: 5px"> Челси
-          </td>
-          <td>1</td>
-          <td>2</td>
-          <td>5</td>
-          <td>2</td>
-          <td>4</td>
+        <tr > </tr>
 
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td><img alt="Image placeholder"
-                   src="assets/img/icons/club/liver.png"
-                   style="width:20px; margin-right: 10px; margin-bottom: 5px"> Ливерпуль
-          </td>
-          <td>1</td>
-          <td>2</td>
-          <td>4</td>
-          <td>5</td>
-          <td>1</td>
-
-        </tr>
         </tbody>
       </table>
+
+
+
+
       <button type="button" class="btn btn-outline-primary btn-sm rounded-0">
         Подробнее
       </button>

@@ -6,7 +6,7 @@
   <meta name=description
         content="">
 
-  <title>{{title}}</title>
+  <title>123</title>
   <style>@keyframes hidePreloader {
            0% {
              width: 100%;
@@ -55,10 +55,39 @@
 
 <app-banner></app-banner>
 
-
 <!--Таблица-->
-
 <app-main-section></app-main-section>
 
 
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--рабочий гет запрос-->
+<div>
+
+  User name: <input type="text" [(ngModel)]="teamName" >
+  <button (click) ="search()">Search</button>
+
+  <div *ngIf="response">
+    <img src="{{response.avatar_url}}" alt="">
+
+  </div>
+
+</div>
+<!--рабочий гет запрос-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!--Таблица-->
+
+<router-outlet></router-outlet>
